@@ -1,0 +1,87 @@
+.error {
+  color: red;
+}
+
+ul {
+  text-align: left;
+  font-size: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.shopping-list {
+  width: 500px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  /* text-align: center; */
+  font-family: "Didact Gothic", sans-serif;
+  background-image: linear-gradient(#33000d, #790d09, #ff0000);
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Luckiest Guy", cursive;
+  text-decoration: underline;
+  letter-spacing: 5px;
+}
+
+hr {
+  /* width: 400px; */
+  color: grey;
+}
+
+#paragraph {
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Cookie", cursive;
+}
+
+.listform {
+  padding: 10px;
+  text-align: center;
+}
+
+#userinput {
+  width: 50%;
+  height: 10px;
+  padding: 12px 0;
+  font-size: 16px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  text-align: center;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+#userinput:focus {
+  outline: none;
+}
+
+#enter {
+  border: 1px solid white;
+  width: 80px;
+  height: 41px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-family: "Luckiest Guy", cursive;
+}
+
+#enter:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.itemcheckbox {
+  padding: 30px;
+}
