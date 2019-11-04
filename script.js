@@ -15,9 +15,12 @@ function errorMsg() {
   p.value = "";
 }
 
-function isCheckboxClicked() {
-  //code
-}
+// function isCheckboxClicked() {
+//   let strikecheckbox = document.getElementsByClassName("itemcheckbox");
+//   if(strikecheckbox.checked === true) {
+
+//   }
+// }
 
 button.addEventListener("click", function() {
   if (input.value !== "") {
@@ -30,6 +33,16 @@ button.addEventListener("click", function() {
     li.appendChild(liText);
     ul.appendChild(li);
     input.value = "";
+    let strikecheckbox = document.getElementsByClassName("itemcheckbox");
+    let clength = strikecheckbox.length;
+    let isChecked = (strikecheckbox.checked = true);
+    for (let i = 0; i < clength; i++) {
+      if (isChecked) {
+        strikecheckbox.style.textDecoration = "line-through";
+      } else {
+        strikecheckbox.style.textDecoration = "none";
+      }
+    }
   } else {
     errorMsg();
   }
